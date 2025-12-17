@@ -1,0 +1,64 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data Files (large files - download separately)
+data/arxivData.json
+*.json
+*.csv
+
+# Keep processed data example (optional)
+!data/sample.csv
+
+# Images (can be included or excluded)
+# Uncomment to exclude:
+# images/*.png
+# images/*.jpg
+
+# Reports (can be included or excluded)
+# Uncomment to exclude:
+# report/*.docx
+# report/*.pdf
+
+# Environment variables
+.env
+
+# OS
+Thumbs.db
+.DS_Store
